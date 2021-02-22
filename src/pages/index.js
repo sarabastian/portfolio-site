@@ -89,7 +89,7 @@ const IndexPage = () => (
         </span>
         <div className="content">
           <header className="major">
-            <h2>One more thing</h2>
+            <h2>My Work</h2>
           </header>
           <p>
             Aliquam ante ac id. Adipiscing interdum lorem praesent fusce
