@@ -27,11 +27,8 @@ const IndexPage = () => (
             <h2>Who I am</h2>
           </header>
           <p>
-            Aliquam ante ac id. Adipiscing interdum lorem praesent fusce
-            pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed
-            adipiscing eu amet interdum lorem blandit vis ac commodo aliquet
-            integer vulputate phasellus lorem ipsum dolor lorem magna consequat
-            sed etiam adipiscing interdum.
+            Hey there, I'm Sara, a full-stack software engineer who loves helping build high quality product for teams .
+            When not at the computer, you can find me playing outside - skiing, biking - or likely re-watching The Office and day-dreaming about french pastries.
           </p>
         </div>
         <Scroll type="id" element="two">
@@ -52,17 +49,16 @@ const IndexPage = () => (
             <h2>Stuff I do</h2>
           </header>
           <p>
-            Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum
-            lorem blandit vis ac commodo aliquet vulputate.
+            My stack includes Ruby on Rails, React.js, HTML5/CSS, and SQLite. Check me out on GitHub or shoot me an email for a full CV.
           </p>
           <ul className="icons-grid">
             <li>
-              <span className="icon major fa-camera-retro" />
-              <h3>Photography</h3>
+              <span className="fas fa-gem" />
+              <h3>Ruby on Rails </h3>
             </li>
             <li>
-              <span className="icon major fa-pencil" />
-              <h3>Blogging</h3>
+              <span className="icon major fa-code" />
+              <h3>React.js</h3>
             </li>
             <li>
               <span className="icon major fa-code" />
@@ -70,7 +66,7 @@ const IndexPage = () => (
             </li>
             <li>
               <span className="icon major fa-coffee" />
-              <h3>Sipping Coffee</h3>
+              <h3>Debugging</h3>
             </li>
           </ul>
         </div>
@@ -91,13 +87,24 @@ const IndexPage = () => (
           <header className="major">
             <h2>My Work</h2>
           </header>
-          <p>
-            Aliquam ante ac id. Adipiscing interdum lorem praesent fusce
-            pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed
-            adipiscing eu amet interdum lorem blandit vis ac commodo aliquet
-            integer vulputate phasellus lorem ipsum dolor lorem magna consequat
-            sed etiam adipiscing interdum.
+         
+            
+            <p>
+            <a href='https://dev-builder.netlify.app/' > dev-builder</a>
+            <iframe width="400" height="315"
+              src="https://www.youtube.com/embed/H8_LGSDINUk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+         
+
+          <div>
+         
+            <a href='https://github.com/sarabastian/RVnB' > RVnB</a>
+            </div>
+            <iframe width="400" height="315" 
+            src="https://www.youtube.com/embed/JquRrALK-Dc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         
           </p>
+       
         </div>
         <Scroll type="id" element="footer">
           <a href="#footer" className="goto-next ">

@@ -9,28 +9,28 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-highlights/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Sara Bastian',
-  subHeading: 'Full Stack Software Engineer',
+  subHeading: 'Full-Stack Software Engineer',
   // social
   socialLinks: [
     {
+      icon: 'fa-linkedin',
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/sara-bastian/',
+    },
+    {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/sarabastian',
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'fa-medium',
+      name: 'Medium',
+      url: 'https://sarabastian.medium.com/',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:sara.bastian.dev@gmail.com',
     },
   ],
 };
