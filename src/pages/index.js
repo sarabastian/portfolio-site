@@ -33,7 +33,8 @@ const IndexPage = () => (
           I'm most energized when I am helping build high quality product for forward-looking teams and pioneering missions, while also building strong coworking relationships.
             <br></br>
             <br></br>
-            I look forward to the countless doors programming opens to continue down this path of life-long learning and self-improvement.
+            As I continue to dive into how big ideas get built, 
+            I am looking forward to the countless doors programming opens to life-long learning and self-improvement.
             When not at the computer, you can find me skiing, reading, road tripping - or on my way to pet your dog.
           </p>
         </div>
