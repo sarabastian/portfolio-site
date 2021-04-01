@@ -28,14 +28,18 @@ const IndexPage = () => (
             <h2>Who I am</h2>
           </header>
           <p>
-            Hi there, I'm Sara, a full-stack engineer who turned a background in ancient and modern languages into a pursuit to learn, and ultimately love, computer languages.
-          
-          I'm most energized when I am helping build high quality product for forward-looking teams and pioneering missions, while also building strong coworking relationships.
+            Hi there, I'm Sara, a full-stack engineer who turned a background in
+            ancient and modern languages into a pursuit to learn, and ultimately
+            love, computer languages. I'm most energized when I am helping build
+            high quality product for forward-looking teams and pioneering
+            missions, while also building strong coworking relationships.
             <br></br>
             <br></br>
-            As I continue to dive into how big ideas get built, 
-            I am looking forward to the countless doors programming opens to life-long learning and self-improvement.
-            When not at the computer, you can find me skiing, reading, road tripping - or on my way to pet your dog.
+            As I continue to dive into how big ideas get built, I am looking
+            forward to the countless doors programming opens to life-long
+            learning and self-improvement. When not at the computer, you can
+            find me skiing, reading, road tripping - or on my way to pet your
+            dog.
           </p>
         </div>
         <Scroll type="id" element="two">
@@ -56,19 +60,21 @@ const IndexPage = () => (
             <h2>Stuff I do</h2>
           </header>
           <p>
-            My stack includes Ruby on Rails, React.js, HTML5/CSS, and SQLite. 
-            Passionate about all areas of development, from user story road-mapping to design, debugging, and implementation.
+            My stack includes Ruby on Rails, React.js, HTML5/CSS, and SQLite.
+            Passionate about all areas of development, from user story
+            road-mapping to design, debugging, and implementation.
           </p>
           <ul className="icons-grid">
             <li>
-            <span className="icon major fa-diamond"/>
-            
-              <h3>Back-end <br></br>development </h3>
+              <span className="icon major fa-diamond" />
+
+              <h3>
+                Back-end <br></br>development{' '}
+              </h3>
             </li>
             <li>
-          
-            <span className="icon major fa-code" />
-        
+              <span className="icon major fa-code" />
+
               <h3>Object-Oriented Programming</h3>
             </li>
             <li>
@@ -77,8 +83,10 @@ const IndexPage = () => (
             </li>
             <li>
               <span className="icon major fa-desktop" />
-              <h3>Responsive <br></br>
-                web design</h3>
+              <h3>
+                Responsive <br></br>
+                web design
+              </h3>
             </li>
           </ul>
         </div>
@@ -100,29 +108,49 @@ const IndexPage = () => (
             <h2>My Work</h2>
           </header>
 
-
           <p>
-            <a href='https://github.com/sarabastian/dev-builder' > dev-builder</a>
-            <iframe width="400" height="315"
-              src="https://www.youtube.com/embed/H8_LGSDINUk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+            <div>
+              <a href="https://github.com/sarabastian/dev-builder">
+                {' '}
+                dev-builder
+              </a>
+            </div>
+            <iframe
+              width="400"
+              height="315"
+              src="https://www.youtube.com/embed/H8_LGSDINUk"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
 
             <div>
-
-              <a href='https://github.com/sarabastian/RVnB' > RVnB</a>
+              <a href="https://github.com/sarabastian/RVnB"> RVnB</a>
             </div>
-            <iframe width="400" height="315"
-              src="https://www.youtube.com/embed/JquRrALK-Dc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe
+              width="400"
+              height="315"
+              src="https://www.youtube.com/embed/JquRrALK-Dc"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
 
             <div>
-
-              <a href='https://github.com/sarabastian/skinssentials-app' > skinssentials</a>
+              <a href="https://github.com/sarabastian/skinssentials-app">
+                {' '}
+                skinssentials
+              </a>
             </div>
-            <iframe width="400" height="315" 
-            src="https://www.youtube.com/embed/ifMWvp_605M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe
+              width="400"
+              height="315"
+              src="https://www.youtube.com/embed/ifMWvp_605M"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </p>
-
         </div>
         <Scroll type="id" element="footer">
           <a href="#footer" className="goto-next ">
@@ -135,7 +163,10 @@ const IndexPage = () => (
     <section id="footer">
       <div className="container">
         <header className="major">
-          <h2>Let's chat! Shoot me a message for inquiries, a full resume, or just to say hi. </h2>
+          <h2>
+            Let's chat! Shoot me a message for inquiries, a full resume, or just
+            to say hi.{' '}
+          </h2>
         </header>
         <form method="post" action="https://formspree.io/f/xvovevve">
           <div className="row gtr-uniform">
@@ -143,7 +174,12 @@ const IndexPage = () => (
               <input type="text" name="name" id="name" placeholder="Name" />
             </div>
             <div className="col-6 col-12-xsmall">
-              <input type="email" name="_replyto" id="email" placeholder="Email" />
+              <input
+                type="email"
+                name="_replyto"
+                id="email"
+                placeholder="Email"
+              />
             </div>
             <div className="col-12">
               <textarea
