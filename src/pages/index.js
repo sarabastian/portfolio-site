@@ -60,9 +60,9 @@ const IndexPage = () => (
             <h2>Stuff I do</h2>
           </header>
           <p>
-            My stack includes Ruby on Rails, React.js, HTML5/CSS, and SQLite.
-            Passionate about all areas of development, from user story
-            road-mapping to design, debugging, and implementation.
+            My stack includes Ruby on Rails, React.js, HTML5/CSS, and SQLite /
+            PostgreSQL. Passionate about all areas of development, from user
+            story road-mapping to design, debugging, and deployment.
           </p>
           <ul className="icons-grid">
             <li>
