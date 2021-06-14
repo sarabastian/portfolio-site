@@ -110,6 +110,13 @@ const IndexPage = () => (
 
           <p>
             <div>
+              <a href="https://npiexcellence.com/">NPI Excellence</a>
+              <p>
+                A consulting business' website built on GatsbyJS, styled with
+                TailwindCSS, and blog capability powered by Netlify CMS.
+              </p>
+            </div>
+            <div>
               <a href="https://github.com/sarabastian/dev-builder">
                 {' '}
                 dev-builder
@@ -123,7 +130,7 @@ const IndexPage = () => (
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-
+            <br></br> <br></br>
             <div>
               <a href="https://github.com/sarabastian/RVnB"> RVnB</a>
             </div>
@@ -135,7 +142,7 @@ const IndexPage = () => (
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-
+            <br></br> <br></br>
             <div>
               <a href="https://github.com/sarabastian/skinssentials-app">
                 {' '}
